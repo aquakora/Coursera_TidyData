@@ -12,9 +12,4 @@ For details on the script, original data source, etc. see the README.md file. Fo
 | Name | Definition | Type | Value Ranges |
 | --- | --- | --- | --- |
 | subject |	subject ID | integer | 1 - 30 |
-| activity  | name of activity | character | - LAYING
-- SITTING |
-| | | | - STANDING |
-| | | | - WALKING |
-| | | | - WALKING_DOWNSTAIRS |
-| | | | - WALKING_UPSTAIRS |
+| activity  | name of activity | character | LAYING; SITTING; STANDING; WALKING; WALKING_DOWNSTAIRS; WALKING_UPSTAIRS |
