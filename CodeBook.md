@@ -6,8 +6,8 @@ File source: run_analysis.R script
 For details on the script, original data source, etc. see the README.md file. For complete details on the original data, see the README.txt file that accomplanies the data.
 
 ### File Properties
-*Name:* activity_averages
-*Format:* comma seperated values (.csv)
-*Size:* 224kB
-*Rows:* 180
-*Columns:* 68
+**Name:** activity_averages
+**Format:** comma seperated values (.csv)
+**Size:** 224kB
+**Rows:** 180
+**Columns:** 68
