@@ -1,22 +1,13 @@
-# Codebook for run_analysis.R
+# Codebook for activity_averages.csv - Output from run_analysis.R
 
-This codebook is a reference file for the run_analysis.R script. For details on the script's purpose, original data source, etc. see the README.md file. For complete details on the original data, see the README.txt file that accomplanies the data.
+This codebook is a reference file for the file: averages.csv
+File source: run_analysis.R script
 
-## Input Variables
-|  File Name          | Description 							  |
-|---------------------|-------------------------------------------|
-| activity_labels.txt | ID and description for activity measured  |
-| features_info.txt   | Information on variables used on features |
-| features.txt 		  | List of all features measured			  |
-| README.txt          | README file from source data              |
-| subject_test.txt 	  |	Subject IDs	from test data set			  |
-| subject_train.txt   |	Subject IDs	from training data set	 	  |
-| X_test.txt 		  |	Test measurements						  |
-| y_test.txt 		  |	Test activity IDs						  |
-| X_train.txt 		  |	Training measurements					  |
-| y_train.txt 		  |	Training activity IDs					  |
+For details on the script, original data source, etc. see the README.md file. For complete details on the original data, see the README.txt file that accomplanies the data.
 
-## Script Variables
-| Name | Purpose |
-|------|---------|
-| 
+### File Properties
+*Name:* activity_averages
+*Format:* comma seperated values (.csv)
+*Size:* 224kB
+*Rows:* 180
+*Columns:* 68
