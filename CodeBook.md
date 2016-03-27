@@ -11,3 +11,7 @@ For details on the script, original data source, etc. see the README.md file. Fo
 **Size:** 224kB
 **Rows:** 180
 **Columns:** 68
+
+| Name | Definition | Type | Value Ranges |
+| --- | --- | --- | --- |
+| subject |	subject ID | integer | 1 - 30 |
