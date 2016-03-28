@@ -24,6 +24,16 @@ This script assumes you are running OS X.
 - combined.data: subject + activity.id + measurements
 - averages: the mean of each of the 66 features selected, calculated by activity by subject
 
+## Script Process
+| Lines | Process |
+| --- | --- |
+| 3:9 | prepare and check environment |
+| 12:28 | download and extract files |
+| 31:37 | load, identify mean and std, and clean up names of features |
+| 40:52 | load and combine measurements, subject ids, and activity ids |
+| 55:58 | load activity names and replace activity ids with names in combined data |
+| 61:68 | calculate averages for each feature, grouped by subject and activity and create new data file |
+
 ## Source Data
 Original data: accelerometer data collected from the Samsung Galaxy S.
 Variables selected: all mean and standard deviation variables identified with mean() & std().
