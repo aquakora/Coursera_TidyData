@@ -1,13 +1,19 @@
-# Codebook for activity_averages.csv - Output from run_analysis.R
-This codebook is a reference file for the file: averages.csv
+# Codebook for activity_averages.csv
+
+This codebook is a reference file for the file activity_averages.csv which is the output of run_analysis.R
+
 File source: run_analysis.R script
 For details on the script, original data source, etc. see the README.md file. For complete details on the original data, see the README.txt file that accomplanies the data.
 
 ### File Properties
 **Name:** activity_averages
+
 **Format:** comma seperated values (.csv)
+
 **Size:** 224kB
+
 **Rows:** 180
+
 **Columns:** 68
 
 ## Variables
@@ -20,9 +26,10 @@ For details on the script, original data source, etc. see the README.md file. Fo
 
 ### Measurement Means
 All measurement means are of type double
+
 | Name | Source Feature | Source Feature Number |
-| ___ | ___ | ___ |
-| time.bodyacc.mean.x | tBodyAcc-mean()-X | 1 | 
+| --- | --- | --- |
+| time.bodyacc.mean.x | tBodyAcc-mean()-X | 1 |
 | time.bodyacc.mean.y | tBodyAcc-mean()-Y | 2 |
 | time.bodyacc.mean.z | tBodyAcc-mean()-Z | 3 |
 | time.bodyacc.std.x | tBodyAcc-std()-X | 4 |
@@ -88,3 +95,4 @@ All measurement means are of type double
 | freq.bodybodygyromag.std  | fBodyBodyGyroMag-std() | 530 |
 | freq.bodybodygyrojerkmag.mean | fBodyBodyGyroJerkMag-mean() | 542 |
 | freq.bodybodygyrojerkmag.std  | fBodyBodyGyroJerkMag-std() | 543 |
+
