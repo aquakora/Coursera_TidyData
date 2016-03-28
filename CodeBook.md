@@ -1,5 +1,7 @@
-# Codebook for activity_averages.csv - Output from run_analysis.R
-This codebook is a reference file for the file: averages.csv
+# Codebook for activity_averages.csv
+
+This codebook is a reference file for the file activity_averages.csv which is the output of run_analysis.R
+
 File source: run_analysis.R script
 For details on the script, original data source, etc. see the README.md file. For complete details on the original data, see the README.txt file that accomplanies the data.
 
