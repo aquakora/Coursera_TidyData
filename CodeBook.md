@@ -5,9 +5,13 @@ For details on the script, original data source, etc. see the README.md file. Fo
 
 ### File Properties
 **Name:** activity_averages
+
 **Format:** comma seperated values (.csv)
+
 **Size:** 224kB
+
 **Rows:** 180
+
 **Columns:** 68
 
 ## Variables
