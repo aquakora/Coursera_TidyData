@@ -2,20 +2,29 @@
 This codebook is a reference file for the file: averages.csv
 File source: run_analysis.R script
 For details on the script, original data source, etc. see the README.md file. For complete details on the original data, see the README.txt file that accomplanies the data.
+<<<<<<< HEAD
 
 ## File Properties
+=======
+### File Properties
+>>>>>>> 984354f615b07541805d8ccbb0920cecebd9292a
 **Name:** activity_averages
 **Format:** comma seperated values (.csv)
 **Size:** 224kB
 **Rows:** 180
 **Columns:** 68
+<<<<<<< HEAD
 
 ## Variables
 ### Identifiers
+=======
+### Variables
+>>>>>>> 984354f615b07541805d8ccbb0920cecebd9292a
 | Name | Definition | Type | Value Ranges |
 | --- | --- | --- | --- |
 | subject |	subject ID | integer | 1 - 30 |
 | activity  | name of activity | character | LAYING; SITTING; STANDING; WALKING; WALKING_DOWNSTAIRS; WALKING_UPSTAIRS |
+<<<<<<< HEAD
 
 ### Measurement Means
 All measurement means are of type double
@@ -87,3 +96,5 @@ All measurement means are of type double
 | freq.bodybodygyromag.std  | fBodyBodyGyroMag-std() | 530 |
 | freq.bodybodygyrojerkmag.mean | fBodyBodyGyroJerkMag-mean() | 542 |
 | freq.bodybodygyrojerkmag.std  | fBodyBodyGyroJerkMag-std() | 543 |
+=======
+>>>>>>> 984354f615b07541805d8ccbb0920cecebd9292a
