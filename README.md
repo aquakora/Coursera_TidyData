@@ -11,14 +11,6 @@ This script assumes you are running OS X.
 - An empty working directory.
 - libraries: readr & tidyr
 
-## Source Data
-Original data: accelerometer data collected from the Samsung Galaxy S.
-Variables selected: all mean and standard deviation variables.
-
-**It is not necessary to download the source file in advance.** The script will download and unzip the data.
-Details: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
 ## Script Variables
 - main.site: the main site containing the data to download
 - folder: the folder inside the zip file that contains the files needed
@@ -32,4 +24,32 @@ Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 - combined.data: subject + activity.id + measurements
 - averages: the mean of each of the 66 features selected, calculated by activity by subject
 
+## Source Data
+Original data: accelerometer data collected from the Samsung Galaxy S.
+Variables selected: all mean and standard deviation variables identified with mean() & std().
 
+Summary of features:
+Prefix 't' denotes time.
+Prefix 'f' denotes frequency.
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+Additional features obtained by averaging the signals in a sample window.
+
+Examples:
+tBodyAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+**It is not necessary to download the source file in advance.** The script will download and unzip the data.
+Details: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## License
+See README.txt with the original dataset for license details
