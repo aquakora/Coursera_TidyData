@@ -27,7 +27,6 @@ All measurement means are of type double
 
 | Name | Source Feature | Source Feature Number |
 | --- | --- | --- |
-
 | time.bodyacc.mean.x | tBodyAcc-mean()-X | 1 |
 | time.bodyacc.mean.y | tBodyAcc-mean()-Y | 2 |
 | time.bodyacc.mean.z | tBodyAcc-mean()-Z | 3 |
