@@ -21,7 +21,7 @@ For details on the script, original data source, etc. see the README.md file. Fo
 ### Measurement Means
 All measurement means are of type double
 | Name | Source Feature | Source Feature Number |
-| ___ | ___ | ___ |
+| --- | --- | --- |
 | time.bodyacc.mean.x | tBodyAcc-mean()-X | 1 | 
 | time.bodyacc.mean.y | tBodyAcc-mean()-Y | 2 |
 | time.bodyacc.mean.z | tBodyAcc-mean()-Z | 3 |
